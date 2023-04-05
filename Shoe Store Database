@@ -1,0 +1,19 @@
+CREATE TABLE Shoe_Store (id INTEGER PRIMARY KEY, Name TEXT, Version TEXT, Color TEXT, Price INTEGER); 
+
+INSERT INTO Shoe_Store VALUES (1, "Nike", "Blazer", "White" , 160); 
+INSERT INTO Shoe_Store VALUES (2, "Hoka", "Bondi 8", "Black", 160);
+INSERT INTO Shoe_Store VALUES (3, "Vans", "Checkerboard slip-on", "Black and White", 65);
+INSERT INTO Shoe_store VALUES (4, "On Cloud", "X 3", "White", 149);
+INSERT INTO Shoe_Store VALUES (5, "Hoka", "Clifton 9", "Ice Water", 111);
+INSERT INTO Shoe_Store Values (6, "Nike", "Free Metcon 4", "Black", 120);
+INSERT INTO Shoe_Store VALUES (7, "Nike", "TC 7900", "Gray", 120);
+INSERT INTO Shoe_Store VALUES (8, "Asics", "Gel-Venture 8", "Blue", 45);
+INSERT INTO Shoe_Store Values (9, "Vans", "Old Skool", "Pink", 70);
+INSERT INTO Shoe_Store VALUES (10, "Vans", "Authentic", "White", 50);
+INSERT INTO Shoe_Store VALUES (11, "Converse", "Chuck Taylor All Star High Top", "Red", 50);
+INSERT INTO Shoe_Store VALUES (12, "Nike", "Flex Runner 2", "Black", 50);
+INSERT INTO Shoe_Store VALUES (13, "Asics", "Jolt 9", "Gray", 40);
+INSERT INTO Shoe_Store VALUES (14, "New Balance", "574", "Black/White", 80);
+INSERT INTO Shoe_Store VALUES (15, "Vans", "Ultrarange", "Forest Green", 80);
+SELECT * FROM Shoe_Store
+ORDER BY name 
